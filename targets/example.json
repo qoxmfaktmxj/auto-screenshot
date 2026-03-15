@@ -1,0 +1,17 @@
+{
+  "project": "example",
+  "baseUrl": "http://localhost:3000",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "pages": [
+    {
+      "name": "home",
+      "title": "홈 화면",
+      "path": "/",
+      "description": "로컬에서 실행 중인 애플리케이션의 첫 화면을 기록하는 기본 예시다.",
+      "waitFor": 1000
+    }
+  ]
+}

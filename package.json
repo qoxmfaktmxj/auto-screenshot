@@ -1,0 +1,15 @@
+{
+  "name": "repo-shot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "로컬에서 실행 중인 웹 애플리케이션을 캡처하고 README용 Markdown을 생성하는 CLI 도구",
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture.mjs",
+    "capture:example": "node scripts/capture.mjs example",
+    "generate-readme": "node scripts/generate-readme.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.51.1"
+  }
+}
