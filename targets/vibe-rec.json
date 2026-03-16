@@ -1,0 +1,31 @@
+{
+  "project": "vibe-rec",
+  "baseUrl": "http://localhost:3000",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "pages": [
+    {
+      "name": "home",
+      "title": "공고 목록",
+      "path": "/",
+      "description": "채용 공고 목록 화면. 공고 상태, 지원 기간, 전형 단계 수를 한눈에 보여준다.",
+      "waitFor": 2000
+    },
+    {
+      "name": "job-posting-detail",
+      "title": "공고 상세 / 지원서 작성",
+      "path": "/job-postings/1001",
+      "description": "공고 상세 정보와 지원서 draft 저장·최종 제출 폼을 제공한다.",
+      "waitFor": 2000
+    },
+    {
+      "name": "login",
+      "title": "관리자 로그인",
+      "path": "/login",
+      "description": "운영자(관리자) 인증 화면.",
+      "waitFor": 1000
+    }
+  ]
+}
